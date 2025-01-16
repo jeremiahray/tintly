@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--fgColor-default);
+
+    > svg{
+        fill: currentColor;
+        width: 16px;
+    }
+}
