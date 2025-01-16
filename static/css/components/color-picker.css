@@ -1,0 +1,33 @@
+.color-picker-container{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 1em 2.15em;
+    border-radius: 6rem;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--fgColor-neutral);
+    /* background-color: red; */
+}
+
+.color-wheel{
+    width: 50px;
+    height: 50px;
+
+}
+
+.color-wheel input{
+    border: none;
+    outline: none;
+    appearance: none;
+    background: none;
+    background-clip: border-box;
+    min-width: 100%;
+    min-height: 100%; 
+    /* border-radius: 50%; */
+}
+
+.color-input{
+    background-color: blueviolet;
+}
