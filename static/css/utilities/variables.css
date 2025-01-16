@@ -1,0 +1,36 @@
+:root{
+    --fgColor-accent: #0969da;
+    --fgColor-default: #1f2328;
+    --fgColor-link: #0969da;
+    --fgColor-muted: #59636e;
+    --fgColor-neutral: #59636e;
+    --fgColor-onEmphasis: #ffffff;
+    --fgColor-onInverse: #ffffff;
+    --bgColor-accent-emphasis: #0969da;
+    --bgColor-accent-muted: #ddf4ff;
+    --bgColor-default: #ffffff;
+    --bgColor-emphasis: #25292e;
+    --bgColor-inset: #f6f8fa;
+    --bgColor-inverse: #25292e;
+    --bgColor-muted: #f6f8fa;
+    --bgColor-neutral-emphasis: #59636e;
+    --bgColor-neutral-muted: #818b981f;
+    --borderColor-accent-emphasis: #0969da;
+    --borderColor-accent-muted: #54aeff66;
+    --borderColor-default: #d1d9e0;
+    --borderColor-emphasis: #818b98;
+    --borderColor-muted: #d1d9e0b3;
+    --borderColor-neutral-emphasis: #59636e;
+    --borderColor-neutral-muted: #d1d9e0b3;
+    --shadow: 0px 3px 6px 0px #25292e1f;
+    --control-bgColor-active: #e6eaef;
+    --control-bgColor-disabled: #eff2f5;
+    --control-bgColor-hover: #eff2f5;
+    --control-bgColor-rest: #f6f8fa;
+    --focus-outlineColor: #0969da;
+}
+
+:root[data-theme="dark"]{
+    --bgColor-default: #1f2328;
+    --fgColor-default: #ffffff;
+}
