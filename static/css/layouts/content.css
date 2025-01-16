@@ -1,0 +1,25 @@
+body{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bgColor-default);
+    font-family: sans-serif;
+    color: var(--fgColor-default);
+    transition: all ease 0.3s;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bgColor-default);
+    margin-bottom: 3rem;
+    padding: 0 0.5rem;
+
+    border: 2px solid red;
+}
