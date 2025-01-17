@@ -1,0 +1,27 @@
+.shades-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.shade{
+    background-color: var(--bgColor-accent-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+}
+
+@media only screen and (max-width: 1096px) {
+    .shades-container{
+        flex-direction: column;
+    }
+    .shade{
+        width: 100%;
+        max-width: 600px;
+    }
+    
+}
