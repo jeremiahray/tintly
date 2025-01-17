@@ -1,6 +1,6 @@
 .color-picker-container{
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     align-items: center;
     gap: 0.5em;
@@ -8,7 +8,7 @@
     border-radius: 6rem;
     box-shadow: var(--shadow);
     border: 1px solid var(--fgColor-neutral);
-    /* background-color: red; */
+    margin-bottom: 4rem;
 }
 
 .color-wheel{
@@ -25,7 +25,6 @@
     background-clip: border-box;
     min-width: 100%;
     min-height: 100%; 
-    /* border-radius: 50%; */
 }
 
 .color-input{
